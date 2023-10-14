@@ -1,0 +1,58 @@
+/*comman css satrt*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    height: auto;
+}
+ 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/*comman css end*/
+
+#main_menu{
+    height: 55px;
+    background-color: orange;
+}
+
+#main_menu .logo{
+    width: 75%;
+    float: left;
+}
+
+#main_menu .menu{
+    width: 75%;
+    float: left;
+}
+
+#main_menu .menu ul{
+    text-align: right;
+}
+
+#main_menu .menu ul li{
+    display:inline-block;
+    line-height: 55px;   
+}
+
+#main_menu .menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+#main_menu .menu ul li a.hover{
+    
+}
